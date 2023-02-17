@@ -1,0 +1,65 @@
+.cards{
+    width: 100%;
+    /* you can use padding as a shortcut in clock direction */
+    padding: 6rem 0 6rem 0;
+
+    background: var(--rd-clr);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+.cards section{
+    flex: 0 1 300px;
+    align-self: stretch;
+
+    background:  var(--th-clr);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(50, 50, 50,0.3);
+
+    padding: 1.5rem;
+
+    
+}
+
+.list{
+    text-align: center;
+    
+}
+.list p {
+    font-weight: bold;
+}
+.cards ul{
+    margin: 20px;
+    font-weight: bold;
+    color: var(--nd-clr);
+}
+
+.price{
+    font-size: xxx-large;
+    text-align: right; 
+    
+    
+}
+
+.cursive{
+    text-align: right;
+    font-weight:lighter;
+    font-style: italic;
+    color: var(--nd-clr);
+}
+
+.cards h3{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.star{
+    color: var(--st-clr);
+
+}
+
+
